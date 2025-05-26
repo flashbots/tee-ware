@@ -1,0 +1,22 @@
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/flashbots/tee-ware"
+repository = "https://github.com/flashbots/tee-ware"
+
+[workspace]
+members = [
+    "crates/dcap",
+    "crates/tss-client",
+    "crates/tss-serde",
+    "crates/tss-serde-derive",
+]
+resolver = "2"
+
+[workspace.dependencies]
+eyre = "0.6"
+
+tss-serde = { path = "crates/tss-serde" }
+tss-serde-derive = { path = "crates/tss-serde-derive" }
