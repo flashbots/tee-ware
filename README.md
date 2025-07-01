@@ -1,3 +1,5 @@
+⚠️ This codebase has been migrated to https://github.com/ferranbt/tee-ware ⚠️
+
 # Tee-ware
 
 A comprehensive Rust library for Trusted Execution Environment (TEE) technologies, providing safe and ergonomic interfaces for various hardware security modules and trusted computing platforms.
